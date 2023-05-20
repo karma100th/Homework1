@@ -6,11 +6,11 @@ public class Task1 {
         int sumOfElements = 0;
         int notSumNumber = 6;
         for (int element : array) {
-            if (element == notSumNumber) {
-                continue;
-            }
             sumOfElements += element;
+            if (element == notSumNumber) {
+                sumOfElements -= element;
+            }
         }
-        System.out.println("Сумма эдементов равна: " + sumOfElements);
+        System.out.println("Сумма элементов равна: " + sumOfElements);
     }
 }

@@ -27,10 +27,10 @@ public class Task5 {
                 }
             }
         }
-        if (counterZero == matrix.length * matrix[0].length && checker ==0) {
+        if (counterZero == matrix.length * matrix[0].length && checker == 0) {
             System.out.println("Матрица является нулевой");
-        }else if (checker == 0) {
-                System.out.println("Матррица является нижнетреугольной");
-            }
+        } else if (checker == 0) {
+            System.out.println("Матррица является нижнетреугольной");
+        }
     }
 }

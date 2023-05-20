@@ -13,11 +13,11 @@ public class Task6 {
                 {2, 1, 0},
         };
         //матрирцы по условию квадратные, т.е. отпадает некоторые проверки :D
-        if (matrixA.length != matrixB.length){
+        if (matrixA.length != matrixB.length) {
             System.out.println("Матрицы разной размерности, данные операции с ними неосуществимы");
         } else {
             System.out.println("Сумма заданных матриц (A + B): ");
-            int [][] matrixSum = new int[matrixA.length][matrixA[0].length];
+            int[][] matrixSum = new int[matrixA.length][matrixA[0].length];
             for (int i = 0; i < matrixSum.length; i++) {
                 for (int j = 0; j < matrixSum[i].length; j++) {
                     matrixSum[i][j] = matrixA[i][j] + matrixB[i][j];
@@ -26,7 +26,7 @@ public class Task6 {
                 System.out.println();
             }
             System.out.println("Разность заданных матриц (A - B): ");
-            int [][] matrixSub = new int[matrixA.length][matrixA[0].length];
+            int[][] matrixSub = new int[matrixA.length][matrixA[0].length];
             for (int i = 0; i < matrixSum.length; i++) {
                 for (int j = 0; j < matrixSum[i].length; j++) {
                     matrixSum[i][j] = matrixA[i][j] - matrixB[i][j];
