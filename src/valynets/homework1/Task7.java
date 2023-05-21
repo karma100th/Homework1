@@ -10,7 +10,7 @@ public class Task7 {
         read.close();
         int sum1 = 0;
         int sum2 = 0;
-        // create randomcd array
+        // create random array
         int[] array = new int[lengthArray];
         System.out.print("Массив: ");
         for (int i = 0; i < lengthArray; i++) {
